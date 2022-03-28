@@ -17,7 +17,7 @@ int main()
 
 	memset(&s, 0, sizeof(s));
 
-  char* w = (char *)&s; // for printing in bytes
+  	char* w = (char *)&s; // for printing in bytes
   
 	for (int i=0; i < 12; i++)
 	{
